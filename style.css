@@ -33,9 +33,13 @@ h1{
     color: var(--lavender);
 }
 
-/* h2{
-
-} */
+h2{
+    font-family: "Roboto Flex";
+    font-weight: 600;
+    font-size: 49px;
+    line-height: normal;
+    color: var(--purple-dark);
+}
 
 h3{
     font-family: "Roboto Flex";
@@ -46,9 +50,14 @@ h3{
     color: var(--pink);
 }
 
-/* h4{
-
-} */
+h4{
+    font-family: "Roboto Flex";
+    font-weight: 400;
+    font-size: 31.25px;
+    line-height: normal;
+    text-align: center;
+    color: var(--lavender-dark);
+}
 
 h5{
     font-family: "Roboto Flex";
@@ -56,6 +65,14 @@ h5{
     font-size: var(--h5);
     line-height: normal;
     color: #540d6e; 
+}
+
+h6{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: normal;
+    color: var(--black);
 }
 
 .head{
@@ -251,7 +268,7 @@ button.button-wrapper i{
     align-items: center;
 }
 
-.bottom-hero-wrapper h5{
+.bottom-hero-wrapper button{
     display: flex;
     justify-content: center;
     text-align: center;
@@ -259,10 +276,10 @@ button.button-wrapper i{
     padding: 10px 25px;
     border-radius: 1000px;
     border-width: 5px;
-    border-style: solid;
+    border-style: solid;    
 }
 
-.bottom-hero-wrapper h5:hover{
+.bottom-hero-wrapper button:hover{
     transition: 0.3s all ease-in-out;
     background-color: var(--white);
     transform: translateY(-3px);
@@ -283,4 +300,70 @@ button.button-wrapper i{
 
     transition: 0.3s all ease-in-out;
     transform: translateY(3px);
+}
+
+/* body featured work */
+
+.body-ft-work{
+    background-color: var(--white-pink);
+}
+
+.body-ft-work .body-ft-work-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    vertical-align: top;
+    align-items: center;
+}
+
+.body-ft-work-header{
+    text-align: center;
+    padding-top: 75px;
+}
+
+.body-ft-work-header h2.title{
+    margin-bottom: 20px;
+}
+
+.body-ft-work-list{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    align-self: stretch;
+}
+
+.body-ft-work-list a:hover{
+    transition: 0.3s all ease-in-out;
+    transform: translateY(-5px);
+}
+
+.body-ft-work-list a h5{
+    padding: 25px 0 15px 0;
+}
+
+.body-ft-work-list a img{
+    border: 5px solid var(--lavender-dark);
+    border-radius: 20px;
+}
+
+.body-ft-work-footer button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 50px 0 100px 0;
+
+    gap: 10px;
+    padding: 10px 25px;
+    border-radius: 1000px;
+    border-width: 5px;
+    border-style: solid;    
+}
+
+.body-ft-work-footer button:hover{
+    transition: 0.3s all ease-in-out;
+    background-color: var(--white);
+    transform: translateY(-3px);
 }
