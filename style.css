@@ -564,6 +564,8 @@ button.button-wrapper i{
 .body-ttml{
     background-image: url("images/img_bg_granite_light_pink.png");
     object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .body-ttml .body-ttml-wrapper{
